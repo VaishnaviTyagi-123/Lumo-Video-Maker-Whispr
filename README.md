@@ -1,6 +1,27 @@
 # Lumo Living — AI Product Video Maker
 
-**Phase 1 runnable backend** using the provided assignment data. This release does **not** yet generate videos. Phase 2 will add the LangGraph creative director and brand validation; later phases will add Gemini/Edge TTS, FFmpeg rendering, jobs, and MP4 downloads.
+FastAPI backend and Streamlit frontend for product storyboards, brand validation, narrated video generation, and MP4 downloads.
+
+## Streamlit frontend
+
+Start the backend from `backend` with its dependencies installed and virtual environment activated:
+
+```bat
+python -m uvicorn app.main:app --reload
+```
+
+In a second terminal, from the project root, install and start the frontend (it can use a separate virtual environment):
+
+```bat
+python -m pip install -r frontend/requirements.txt
+python -m streamlit run frontend/app.py
+```
+
+Open http://localhost:8501. The sidebar connects to `http://127.0.0.1:8000` by default; change it there or set `LUMO_API_URL` before starting Streamlit. Requests and media downloads run through the Streamlit server, so the API URL must be reachable from that server.
+
+Choose a product, language, and voice to preview a storyboard or generate a complete video. Full generation creates a fresh plan independently of the preview and can take several minutes. Completed videos can be played and downloaded; save the displayed job ID to reopen a render using **Find a video**. The studio also supports replacing product images and viewing/editing the brand guide.
+
+Video generation requires the backend Gemini credentials, FFmpeg/FFprobe, and the [WhisperX setup](backend/WHISPERX_SETUP.md). The frontend alone does not install these dependencies. Backend errors and brand-validation failures appear in the UI. Generation requests are synchronous with a 30-minute client timeout; a timeout does not cancel work on the backend.
 
 ## Windows 11 CMD setup
 
