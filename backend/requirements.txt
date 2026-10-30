@@ -1,0 +1,17 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+pydantic>=2.8,<3
+pydantic-settings>=2.4,<3
+sqlalchemy>=2.0,<3
+python-multipart>=0.0.9
+pillow>=10.4
+httpx>=0.27
+pytest>=8
+# Used for model access checking; full integrations are Phase 2+
+google-genai>=1.0
+# LangGraph graph and TTS integration are Phase 2+
+langgraph>=0.4
+edge-tts>=7
+langgraph>=0.4
+google-genai>=1.0
+whisperx>=3.8,<3.9

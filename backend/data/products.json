@@ -1,0 +1,47 @@
+[
+  {
+    "id": "LL-001",
+    "name": "Lumo Stoneware Mug Set",
+    "category": "Kitchen",
+    "description": "Set of 4 hand-glazed stoneware mugs, 350 ml each, in sand, sage, clay and stone colours.",
+    "features": ["hand-glazed finish", "350 ml capacity", "dishwasher safe", "set of 4 colours"],
+    "sustainability": "Made in a family-run studio in Portugal using locally sourced clay.",
+    "image": "images/LL-001.png"
+  },
+  {
+    "id": "LL-002",
+    "name": "Lumo Linen Throw",
+    "category": "Living room",
+    "description": "Stonewashed linen throw blanket, 130 x 170 cm, soft from the first use.",
+    "features": ["stonewashed linen", "130 x 170 cm", "gets softer with every wash", "available in oat and charcoal"],
+    "sustainability": null,
+    "image": "images/LL-002.png"
+  },
+  {
+    "id": "LL-003",
+    "name": "Lumo Aroma Diffuser",
+    "category": "Wellbeing",
+    "description": "Ultrasonic aroma diffuser with a ceramic cover and warm ambient light. Runs up to 8 hours.",
+    "features": ["ceramic cover", "up to 8 hours run time", "warm ambient light", "auto shut-off"],
+    "sustainability": null,
+    "image": "images/LL-003.png"
+  },
+  {
+    "id": "LL-004",
+    "name": "Lumo Cork Yoga Mat",
+    "category": "Wellbeing",
+    "description": "Natural cork yoga mat with a rubber base, 183 x 61 cm, 4 mm thick. Grippy even when wet.",
+    "features": ["natural cork surface", "grippy when wet", "4 mm thickness", "includes carry strap"],
+    "sustainability": "Cork is harvested from the bark without cutting down the tree.",
+    "image": "images/LL-004.png"
+  },
+  {
+    "id": "LL-005",
+    "name": "Lumo Fig & Cedar Candle",
+    "category": "Home fragrance",
+    "description": "Soy wax candle with notes of fig, cedarwood and amber in a reusable glass jar. Burns about 45 hours.",
+    "features": ["soy wax", "about 45 hours burn time", "reusable glass jar", "cotton wick"],
+    "sustainability": null,
+    "image": "images/LL-005.png"
+  }
+]

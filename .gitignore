@@ -1,0 +1,45 @@
+**/.env
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+**/data/*.db
+**/data/media/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated media
+backend/data/media/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend dependencies and builds
+node_modules/
+.next/
+dist/
+build/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
